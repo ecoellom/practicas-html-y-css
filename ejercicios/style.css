@@ -1,0 +1,52 @@
+.parrafo1 {
+    color: red !important;
+    font-size: 50px;
+    background-color: aqua;
+    border-width: 20px;
+    border-color: blue;
+    border-style:groove ;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    padding-right: 90px;
+    font-family:sans-serif;
+    
+}
+.parrafo2 {
+    color: blue;
+    font-size: 30px;
+    background-color: aqua;
+    padding: 20px;
+    width: 500px; /* ANCHO */
+    height: 600px; /* ALTURA */
+    font-family:sans-serif
+}
+p {
+    color: green;
+    font-size: 100px;
+}
+.caja0 {
+    color: blue;
+    background-color: black;
+    width: 200PX;
+    height: 500PX;
+
+}
+.caja1 {
+    color: blue;
+    background-color: red;
+    width: 60px;
+    height: 40px;
+
+}
+.caja2 {
+    color: yellow;
+    background-color: chocolate;
+    width :60px;
+    height: 30px;
+}
