@@ -1,0 +1,39 @@
+html {
+    font-size: 10PX;
+}
+
+
+div {
+    background-color: blue;
+    background-color: #ededed;
+    padding: 15px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    border-left: 5px solid #999;
+}
+h1 {
+    margin: 0%;
+    font-size: 90px;
+    
+    
+}
+span {
+    color: #999;
+    font-size: 35px;
+    font-weight: 100px;
+    
+}
+p {
+    text-align: left;
+    color: black;
+    font-size: 34px;
+    
+}
+h2 {
+color: black; 
+font-size: 100%;
+text-align: left;
+
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+    margin: 0;
+}
+
+
+.box {
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(transparent,#000a);
+    border-radius: 7px;
+    margin-top: 20px;
+    margin: auto;
+    border-top: 6px solid #900;
+}
+imG {
+    width: 300px;
+}
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
