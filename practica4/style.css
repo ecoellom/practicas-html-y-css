@@ -1,0 +1,26 @@
+.parrafo1 {
+  font-size: 25px;
+}
+.payaso {
+    text-align: center;
+}
+.payaso2 {
+    text-align: center;
+}
+.imagen3 {
+    text-align: center;
+    
+}
+body {
+    font-family: sans-serif;
+    margin: 400px;
+}
+
+.titulo-link {
+    color: #00a5de;
+
+}
+.link{
+    color: #00a5de;
+    text-decoration: none;
+}
