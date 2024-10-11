@@ -1,0 +1,31 @@
+.h2 {
+    color: aqua;
+
+}
+.titulo {
+    color: black;
+    font-size: 25px;
+}
+.subtitulo {
+    font-size: 20px;
+}
+.image-via {
+    text-align: center;
+}
+.parrafos {
+    font-size: 20px;
+}
+.lista {
+    font-size: 25px;
+}
+.cuerpo {
+    margin: 250px;
+}
+.pretitulo {
+    margin:0;
+}
+.link {
+    color : #00a5de;
+    font-weight: bold;
+    text-decoration: none;
+}
