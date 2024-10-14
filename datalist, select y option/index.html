@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Textarea</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h2>formulario de contacto</h2>
+      <!--SIMPLE INPUTS-->
+      <div class="form_input">
+        <label
+          >Nombre commpleto
+          <input type="text" placeholder="john doe" id="nombre" />
+        </label>
+      </div>
+      <div class="form_input">
+        <label
+          >Email
+          <input type="email" placeholder="ejemplo@gmail.com" id="email" />
+        </label>
+      </div>
+      <!--SELECT & OPTION-->
+      <div class="form_input">
+        <label>
+          tipo de usuario
+          <select name="type-of-user">
+            <option value="user1">seguidor</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">otros</option>
+          </select>
+        </label>
+      </div>
+      <!--DATALIST & OPTION-->
+      <div class="form_input">
+        <label> referente
+          tipo de usuario
+          <input list="referente" >
+          <datalist id="referente" name="type-of-user">
+            <option value="soy alejandro">empresario</option>
+            <option value="Una Empresa">Una Empresa de Alejo</option>
+            <option value="amigo">me recomendo un amigo</option>
+          </datalist>
+        </label>
+      </div>
+      <!--TEXTAREA-->
+      <div class="form_input">
+        <label
+          >Mensaje
+          <textarea
+            rows="8"
+            placeholder="deja tu mensaje...."
+            id="mensaje"
+          ></textarea>
+        </label>
+        <div class="form_input">
+          <label
+            >acepto los terminos y condiciones
+            <input type="checkbox" class="checkbox" />
+          </label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

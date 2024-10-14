@@ -1,0 +1,27 @@
+.fuentes {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(12, 199, 199);
+}
+.parrafo {
+  font-weight: lighter;
+  color: red;
+}
+.caja {
+  box-shadow: 0px 0px 40px 0 rgb(88, 88, 88);
+  border-radius: 10px 0px 0px 0px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+.text {
+    /* primer valor  mueve derecha a izquierda
+    el segundo valor mueve de abajp haca arriba */
+    text-shadow: 0px 0px 50px  black; 
+}
