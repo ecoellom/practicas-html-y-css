@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Informacion general</h1>
+        <fieldset>
+            <legend>INFORMACION PERSONALs</legend>
+            <label>Nombre</label>
+            <input type="text">
+
+            <div class="form_input">
+            <label>Apellido</label>
+            <input type="text">
+        </div>
+            <label>direccion</label>
+            <input type="text">
+            <div>
+            <label>telefono</label>
+            <input type="tel">
+            <div>
+                <label>edad</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>Genero</label>
+            <select name="Genero" >Genero</select>
+            <option value="mujer"></option>
+            <option value="hombre"></option>
+        </div>
+        </fieldset>
+
+        <form>
+            <h2>SALUD</h2>
+            <fieldset>
+                <legend>INFORMACION DE SALUD</legend>
+                <div class="form_input">
+                <label> Es alergico?</label>
+                <select name="SALUD">Es alergico?</select>
+                <option value="si"></option>
+                <option value="no"></option>
+            </div>
+                <div class="form_input">
+                    <label>tiene operaciones?</label>
+                    <select name="operaciones?">tiene operaciones?</select>
+                    <option value="si"></option>
+                    <option value="no"></option>
+                </div>
+                <div class="form_input">
+                    <label>tiene algun hueso roto?</label>
+                    <select name="hueso">
+                        tiene algun hueso roto?
+                    </select>
+                    <option value="si">si</option>
+                    <option value="no"></option>
+                </div>
+                
+            </fieldset>
+        </form>
+    </form>
+</body>
+</html>
