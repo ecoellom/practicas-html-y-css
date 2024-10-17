@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <h2>Informacion basica</h2>
+      <fieldset>
+        <legend>Informacion Personal</legend>
+        <div class="form_input">
+          <label>Nombre Completo
+            <input type="text" placeholder="alejandro">
+          </label>
+        </div>
+        <div class="form_input">
+            <label>Apellidos
+                <input type="text" placeholder="Coello moran">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Correo
+                <input type="email" placeholder="email">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>edad
+                <input type="number" placeholder="edad">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user">
+                    <option value="user1">nuevo</option>
+                    <option value="user2">existente</option>
+                    <option value="user3">regresando</option>
+                </select>
+            </label>
+          </div>
+        <div>
+            <label> Acepto los <a href="https://www.primicias.ec/economia/horarios-cortes-luz-programacion-ecuador-16octubre-81227/">terminos y condiciones</a>
+            <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
