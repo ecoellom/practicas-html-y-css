@@ -1,0 +1,24 @@
+.body_class {
+    margin: 100px;
+    color: #eee;
+    background-color: #222;
+}
+
+
+.h1-class {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.label_class , .input_class , .select_class {
+    font-size: large;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 2px 0px;
+    
+}
+.option-class {
+    color: red;
+    background-color: red;
+}
+

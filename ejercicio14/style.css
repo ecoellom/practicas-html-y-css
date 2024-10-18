@@ -1,0 +1,24 @@
+.tr-class {
+  background-color: rgb(192, 135, 151);
+  font-family: sans-serif;
+  padding: 200px;
+}
+.table-class {
+  width: auto;
+  margin: auto;
+  max-width: 400px;
+  box-shadow: 0px 0px 50px #002;
+  margin-top: 90px;
+}
+.th-class {
+  background-color: rgb(206, 170, 202);
+}
+.thead-class {
+  font-family: sans-serif;
+}
+.th_clase {
+    padding: 10px;
+}
+.padding-table {
+    padding: 25px;
+}
