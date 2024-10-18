@@ -1,0 +1,22 @@
+body {
+    margin: 300px;
+    color: #eee;
+    background-color: #222;
+  }
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  .input-class,
+  select {
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    border: 2px solid #666;
+    border-radius: 9px;
+  }
+.label-class {
+    font-size: large;
+    font-family: sans-serif;
+}

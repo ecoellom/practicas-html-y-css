@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <form>
-        <h1>Informacion general</h1>
-        <fieldset>
-            <legend>INFORMACION PERSONAL</legend>
-            <label>Nombre</label>
-            <input type="text">
+      <h1>Informacion general</h1>
+      <fieldset>
+        <legend>INFORMACION PERSONAL</legend>
+        <label>Nombre</label>
+        <input type="text" />
+        <div>
+          <label>Apellido</label>
+          <input type="text" />
+          <div>
+            <label>direccion</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Numero de telefono</label>
+            <input type="tel" />
+          </div>
+          <div>
+            <label>edad</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label>Genero</label>
+            <select name="Genero" id="select">
+              <option value="Hombre">Hombre</option>
+              <option value="mujer">Mujer</option>
+              <option value="Prefiere no decirlo">Prefiere no decirlo</option>
+            </select>
             <div>
-                <label>Apellido</label>
-                <input type="text">
-                <label>dire</label>
+              <label>Ciudad de Nacimiento</label>
+              <select name="Ciudad de Nacimiento">
+                <option value="Guayaquil">Guayaquil</option>
+                <option value="Quito.">Quito.</option>
+                <option value="Cuenca.">Cuenca.</option>
+                <option value="Santo Domingo">Santo Domingo</option>
+                <option value="Durán.">Durán.</option>
+                <option value="Machala">Machala</option>
+              </select>
             </div>
-        </fieldset>
+          </div>
+        </div>
+      </fieldset>
     </form>
-</body>
+    <form>
+      <h2>Informacion De Salud</h2>
+      <fieldset>
+        <legend>Llene la informacion de salud</legend>
+        <label>tiene algun hueso roto?</label>
+        <select name="tiene algun hueso roto?">
+          <option value="si">si</option>
+          <option value="no">No</option>
+        </select>
+        <div>
+          <label>es alergico a algun medicamento?</label>
+          <select name="alergico">
+            <option value="si">si</option>
+            <option value="No">no</option>
+          </select>
+          <div>
+            <label>tiene alguna operacion</label>
+            <select name="tiene alguna operacion">
+              <option value="si">si</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div>
+            <label>Tiene alguna Discapacidad</label>
+            <select name="Tiene alguna Discapacidad">
+              <option value="si">si</option>
+              <option value="no">no</option>
+            </select>
+          </div>
+          <div>
+            <label>Escriba el numero de su medico de confianza</label>
+            <input type="tel" />
+          </div>
+          <div>
+            <label
+              >Escriba su medicamento si lo necesita en casos de
+              emergencias</label
+            >
+            <input type="text" />
+          </div>
+          <div>
+            <label>Detalla mas de tu enfermedad</label>
+            <textarea
+              rows="8"
+              placeholder="Detalla mas de tu enfermedad.... "
+              id="enfermedad"
+            ></textarea>
+              <form action="http://localhost:3000/api/form" method="post">
+                <!-- Campos del formulario -->
+                <button type="submit">Enviar formulario</button>
+              </form>
+              
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
 </html>
