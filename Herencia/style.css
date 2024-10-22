@@ -1,0 +1,13 @@
+body {
+    color: blue;
+}
+div {
+    font-family: sans-serif;
+}
+h1 {
+    color: green;
+}
+h1 {
+    color: unset;
+    font-family: initial;
+}
