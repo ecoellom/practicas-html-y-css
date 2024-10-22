@@ -1,0 +1,19 @@
+form {
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 0px 0px 20px #222;
+}
+
+.titulo_class {
+    text-align: center;
+}
+.titulo_formulario {
+    font-family: sans-serif;
+    font-size: larger;
+}
+.label_class {
+    font-size: large;
+}
+.label_clase {
+    color: red;
+}

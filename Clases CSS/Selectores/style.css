@@ -1,11 +1,22 @@
-li {
-    color: gray;
+img[ src ="https://kywiec.vtexassets.com/arquivos/ids/157522-800-auto?v=638380022075330000&width=800&height=auto&aspect=true"]{
+    width: 100%;
 }
 
-
-.faltante {
-    color: red;
+/*SELECCION DESENDENTE */
+ul li {
+    color:#666;
 }
-#Ingrediente-Secreto {
+
+/* SELECTOR POR HIJO DIECTO */
+li > em {
+    color: #f00;
+}
+
+/* SELECTOR ADYACENTE  */
+h1 + p {
+    color: blue;
+}
+/* SELECTOR DE HERMANO GENERALES */
+h1 + p {
     color: blue;
 }
