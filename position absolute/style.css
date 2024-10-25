@@ -1,0 +1,25 @@
+body {
+    background-color: #ededed;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+.contenedor {
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+}
+.box--blue {
+    background-color: blue;
+    position: absolute;
+    
+}
+.box--red {
+    background-color: red;
+}
