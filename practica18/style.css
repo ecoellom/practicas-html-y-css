@@ -1,0 +1,36 @@
+body  {
+    margin: 0;
+    font-family: sans-serif;
+}
+.modal {
+background-color: #0009;
+position: absolute;
+width: 100vw;
+height: 100vh;
+}
+
+.modal__content {
+background-color: #fff;
+padding: 40px;
+width: 70%;
+margin: auto;
+margin-top: 40px;
+position: relative;
+box-shadow: 1px 1px 40px 2px #000f;
+box
+}
+
+.modal__title {
+    margin-top: 10px;
+    
+}
+.modal__close-button {
+    background-color: white;
+    color: gray;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    
+}
