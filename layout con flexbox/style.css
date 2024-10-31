@@ -1,0 +1,137 @@
+body {
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+background-color: gray;
+color: #FFF;
+}
+body, div, header, nav, ul, p, img {
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION */
+
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cp1KbLf8E1ZSzzcr1M3Ltr60lO8c5spm32mE9b9TwnklIKzFaBtCVI8-Y1BWwgT84kQ&usqp=CAU);
+    background-size: cover;
+    display: flex;
+}
+
+
+.header__overlay {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0006;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.header__item-container {
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+
+.header__item-container p {
+    text-wrap: pretty;
+}
+
+.header__img {
+    min-width: 50vh;
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 10px;
+    border: 6px solid #fff;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+
+
+
+/* --- NAVBAR SECTION --- */
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6;
+    position: sticky;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px #0009;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav_item {
+    list-style: none;
+}
+
+
+.nav__logo-container {
+    flex-grow: 1;
+
+}
+
+.nav__ul-container {
+    flex-grow: 4;
+    text-align: center;
+}
+
+
+.nav__link {
+    color: #f80;
+    text-decoration: none;
+    display: inline-block;
+    padding: 100px;
+    border-radius: 0;
+    transition: background-color 0,3s, border-radius 0.24s;
+    margin: 2px;
+}
+
+.nav__link:hover {
+    background-color: #f803;
+    border-radius: 20px;
+    outline: 2px solid #f809;
+    outline-offset: -8px;
+}
+
+.link--login {
+    background-color: #f80;
+    color: #FFF;
+    border-radius: 20px;
+}
+
+.link--login:hover {
+    background-color: #f809;
+}
+
+.nav__logo {
+    width: 300px;
+
+}
+
+
+
+/* MAIN SECTION */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
